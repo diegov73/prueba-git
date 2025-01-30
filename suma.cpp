@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-main() {
+main() 
+{
     int a, b, c;
     cout << "ingresa dos numeros: ";
     cin >> a >> b;
