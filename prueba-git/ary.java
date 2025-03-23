@@ -47,11 +47,6 @@ public class ary {
                 int jj = qs-j;
                 System.out.println("i: " + i + "  " + A[i] + " /j: " + j + "  " + A[j] + " /ii: " + ii + "  " + A[ii] + " /jj: " + jj + "  " + A[jj]);
                 
-                if(A[i]>A[ii]){
-                    aux = A[ii];
-                    A[i]=A[ii];
-                    A[ii]=aux;
-                }
                 if(A[i]>A[j]){
                     aux = A[i];
                     A[i]=A[j];
@@ -61,11 +56,6 @@ public class ary {
                     aux = A[ii];
                     A[ii]=A[jj];
                     A[jj]=aux;
-                }
-                if(A[i]>A[ii]){
-                    aux = A[ii];
-                    A[i]=A[ii];
-                    A[ii]=aux;
                 }
                 SOP(A);
             }
