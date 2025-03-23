@@ -12,7 +12,7 @@ int main()
 {
     srand(time(NULL));
     int n;
-    cout << "Enter the highest number that can be genenated ";
+    cout << "Enter the highest number that can be generated ";
     cin >> n;
     cout << genram(n) <<endl;
     system("pause");
